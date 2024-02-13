@@ -1,0 +1,44 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  background-color: rgb(162, 202, 255);
+  border-style: solid;
+  padding: 10px 20px;
+}
+
+h3 {
+  border-style: solid;
+  border-radius: 10px;
+  background-color: yellow;
+  margin-right: 70%;
+}
+h3:hover {
+  background-color: aliceblue;
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 20px;
+  font-weight: bolder;
+}
+input {
+  width: 40px;
+}
+
+button {
+  background-color: yellow;
+  box-shadow: 2px 2px 3px 3px rgb(133, 133, 133);
+  box-shadow: inset;
+}
+
+button:hover {
+  background-color: rgb(224, 187, 255);
+}
+
+html {
+  background-color: white;
+}
