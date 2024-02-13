@@ -18,6 +18,24 @@ function calculate() {
       +ClientScript2 +
       +progectA) /
     5;
+   
 
   document.getElementById("foot").innerHTML = `Final CS10 Grades:${CSTotal}%`;
 }
+
+function getLetterGrade(percentGrade){
+if  (percentGrade >= 90) {
+  return "A";
+} else if (percentGrade >= 75 && percentGrade < 90){
+return "B";
+} else if (percentGrade >= 60 && percentGrade < 75){
+  return "C";
+} else if (percentGrade >= 50 && percentGrade < 60){
+  return "D";
+} else if ( percentGrade >= 0 && percentGrade < 50){
+  return "F";
+}
+}
+
+
+
