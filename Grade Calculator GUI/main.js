@@ -9,7 +9,6 @@ function calculate() {
   let structuredprogramming2 = document.getElementById("StructP2").value;
   let ClientScript2 = document.getElementById("Client-side2").value;
   let progectA = document.getElementById("ProA").value;
-
   //PROCESS
   let CSTotal =
     (+ClientScript1 +
@@ -18,11 +17,11 @@ function calculate() {
       +ClientScript2 +
       +progectA) /
     5;
-   
-
-  document.getElementById("foot").innerHTML = `Final CS10 Grades:${CSTotal}%`;
+    //change html
+    let Letter = getLetterGrade(CSTotal);
+    document.getElementById("foot").innerHTML = `Letter grade: ${Letter}`;
 }
-
+// claculate letter
 function getLetterGrade(percentGrade){
 if  (percentGrade >= 90) {
   return "A";
